@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>  
+  <defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>StitchedLeather</defName>
+    <label>Stitched leather</label>
+    <description>A rough patchwork of many smaller pieces of leather that were roughly stitched together to make a larger piece.  Not as sturdy as whole leather (and a crime against fashion) but it's certainly better than nothing!</description>
+    <graphicData>
+      <texPath>Resource/StitchedLeather</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <color>(176,128,96)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.030</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <stuffProps>
+      <categories>
+        <li>Leathery</li>
+      </categories>
+      <commonality>1.8</commonality>
+      <color>(160,80,96)</color><!--Slightly different color than applied to resource texture-->
+      <statOffsets>
+        <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      </statOffsets>
+      <statFactors>
+        <ArmorRating_Blunt>1.4</ArmorRating_Blunt>
+        <ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+        <ArmorRating_Heat>1.6</ArmorRating_Heat>
+        <ArmorRating_Electric>3.0</ArmorRating_Electric>
+        <Insulation_Cold>0.75</Insulation_Cold>
+        <Insulation_Heat>0.75</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Leathers</li>
+    </thingCategories>
+  </ThingDef>
+  </defs>

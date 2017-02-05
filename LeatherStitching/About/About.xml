@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Leather Stitching</name>
+	<author>Hans Lemurson</author>
+	<targetVersion>0.16.0</targetVersion>
+	<description>Lets you combine multiple leather types into one.
+	Turn your scraps of squirrel, rat, and hare leather into something useful!
+	Not as good as whole hides, but better than nothing.
+	</description>
+</ModMetaData>
